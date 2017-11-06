@@ -6,7 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 
 cl = LINETCR.LINE()
-cl.login(token="AuthToken")
+cl.login(qr=True)
 cl.loginResult()
 
 ki = kk = kc = ks = ka = cl
@@ -94,7 +94,7 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 
-admins = ["ub736c5b1794f5aa30026d162d07ce5e6"]
+admins = ["u512a023f8133f8d57b640cea73a291c8"]
 Rx5 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
 Rx4 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
 Rx3 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
