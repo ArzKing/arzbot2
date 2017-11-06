@@ -35,7 +35,7 @@ ka.loginResult()
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage ="""Zetsu Bot v2.1      
+helpMessage ="""ArzBot V0.1     
   
 👊[Id]: ~÷~
 👊[Mid]: ~÷~
