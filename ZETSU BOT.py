@@ -2,35 +2,14 @@
 
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
-from io import StringIO
 from datetime import datetime
-import time,random,sys,json,codecs,threading,glob,sys
-import re,string,os
-import os.path,sys,urllib,shutil,subprocess
+import time,random,sys,json,codecs,threading,glob,re
 
 cl = LINETCR.LINE()
 cl.login(token="AuthToken")
 cl.loginResult()
 
-ki = LINETCR.LINE()
-ki.login(token="AuthToken")
-ki.loginResult()
-
-kk = LINETCR.LINE()
-kk.login(token="AuthToken")
-kk.loginResult()
-
-ks = LINETCR.LINE()
-ks.login(token="AuthToken")
-ks.loginResult()
-
-kc = LINETCR.LINE()
-kc.login(token="AuthToken")
-kc.loginResult()
-
-ka = LINETCR.LINE()
-ka.login(token="AuthToken")
-ka.loginResult()
+ki = kk = kc = ks = ka = cl
 
 print "login success"
 reload(sys)
