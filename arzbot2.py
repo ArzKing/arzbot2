@@ -39,7 +39,7 @@ helpMessage ="""ArzBot V0.1
 👊[Unban]: "Dalate blacklist"
 👊[Banlist]: "Check blacklist"
 
--⚠™[ƧЄƬ]:ƇƠMMƛƝƊƧ ƧЄƬ. -
+-⚠™ArzBot Command Set. -
 👊[Contact: on/off]: 
 👊[Auto join: on/off]: 
 👊[Cancel Invite: 1 on/off]:
@@ -49,7 +49,7 @@ helpMessage ="""ArzBot V0.1
 👊[Auto add: on/off]: 
 👊[Auto like: on/off]: 
 	
--⚠™ƇƠMMƛƝƊƧ ƖƝ ƬHЄ ƓƦƠƲƤƧ. ~~~~
+-⚠™Command di Grup. ~~~~
 👊[Ban " @Tag]: 
 👊[Unban " @Tag]: 
 👊[Urlon]: "Open urL"
@@ -81,7 +81,7 @@ Cmid = kc.getProfile().mid
 Emid = ka.getProfile().mid
 
 Bots=[mid,Amid,kimid,ki2mid,Cmid,Emid]
-admin = ["ub736c5b1794f5aa30026d162d07ce5e6","u406133ad4d3fbe50a2f4d51ea081d050"]
+admin = ["u512a023f8133f8d57b640cea73a2918c"]
 me = cl.getProfile().mid
 bot1 = cl.getProfile().mid
 main = cl.getProfile().mid
